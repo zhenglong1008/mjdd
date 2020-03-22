@@ -3,13 +3,42 @@
     "pages/home/home",
     "pages/about/about",
     "pages/cart/cart",
-    "pages/account.account"
+    "pages/account/account"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "马俊的店",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#ea9518",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/icon/home.png",
+        "selectedIconPath": "assets/icon/home_active.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "分类",
+        "iconPath": "assets/icon/Tabulation.png",
+        "selectedIconPath": "assets/icon/Tabulation_active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "assets/icon/cart.png",
+        "selectedIconPath": "assets/icon/cart_active.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "我的",
+        "iconPath": "assets/icon/mine.png",
+        "selectedIconPath": "assets/icon/mine_active.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
