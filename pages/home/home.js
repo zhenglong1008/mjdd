@@ -5,7 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    background: [
+      '/assets/home/swiper1.bmp',
+      '/assets/home/1.jpg',
+      '/assets/home/2.jpg',
+      '/assets/home/3.jpg',
+    ],
+    recommendImage: [
+      '/assets/home/swiper1.bmp',
+      '/assets/home/1.jpg',
+      '/assets/home/2.jpg',
+      '/assets/home/3.jpg',
+      '/assets/home/4.jpg',
+      '/assets/home/5.jpg',
+      '/assets/home/6.jpg',
+      '/assets/home/4.jpg',
+    ]
   },
 
   /**

@@ -1,2 +1,28 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<view>
+  <swiper indicator-dots="{{true}}" autoplay="{{true}}">
+    <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item>
+        <image src="{{item}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="recommend">
+    <view class="recommend-title">店长推荐</view>
+    <view class="recommend-image">
+      <block wx:for="{{recommendImage}}" wx:key="*this">
+        <image src="{{item}}"></image>
+      </block>
+    </view>
+  </view>
+  <view class="h-goods">
+    <view class="h-goods-content" wx:for="{{10}}" wx:key="*this">
+      <image src='/assets/home/1.jpg' />
+      <view class="h-goods-text">
+        <view class="text-weight">夏日新款男士T恤</view>
+        <view >款式配色丰富,单穿即可打造时尚造型,火热售卖中</view>
+        <view class="text-weight" style="color:red">¥89</view>
+      </view>
+    </view>
+  </view>
+</view>
